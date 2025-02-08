@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites_title">Favorites</string>
+    <string name="no_favorites_message">No Saved Items!</string>
+    <string name="add_favorites_via_home_message">You don’t have any saved items... But you can go to Home and add some!</string>
+</resources>

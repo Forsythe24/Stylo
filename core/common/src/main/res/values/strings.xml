@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cart_title">Cart</string>
+    <string name="search_title">Search</string>
+    <string name="home_title">Home</string>
+    <string name="favorites_title">Favorites</string>
+
+    <string name="price_in_rubles_template">%d ₽</string>
+
+</resources>

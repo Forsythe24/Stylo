@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_up_title">Create an account</string>
+    <string name="sign_up_subtitle">Let’s create your account.</string>
+    <string name="log_in_title">Log into your account</string>
+    <string name="log_in_subtitle">It’s great to see you again.</string>
+    <string name="log_in_btn_text">Log in</string>
+    <string name="sign_up_btn_text">Create an Account</string>
+    <string name="google_log_in_btn_text">Log in with Google</string>
+    <string name="google_sign_up_btn_text">Sign up with Google</string>
+    <string name="log_in_link_text">Log In</string>
+    <string name="log_in_link_description">Already have an account?</string>
+    <string name="sign_up_link_text">Join</string>
+    <string name="sign_up_link_description">Don\'t have an account?</string>
+
+    <string name="sign_up_agreement_plain_text">By signing up you agree to our&#160;</string>
+    <string name="terms_link_text">Terms</string>
+    <string name="privacy_policy_link_text">Privacy Policy</string>
+    <string name="reset_password_plain_text">Forgot your password?&#160;</string>
+    <string name="reset_password_link_text">Reset your password</string>
+
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="name_label">Full Name</string>
+    <string name="email_placeholder">Enter your email address</string>
+    <string name="password_placeholder">Enter your password</string>
+    <string name="name_placeholder">Enter your full name</string>
+    <string name="hide_password_content_description">Hide password</string>
+    <string name="show_password_content_description">Show password</string>
+    <string name="and_text">" and "</string>
+    <string name="or_divider_text">Or</string>
+</resources>
