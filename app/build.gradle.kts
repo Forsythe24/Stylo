@@ -6,6 +6,7 @@ plugins {
     id(Libs.plugin.detekt)
     id(Libs.plugin.google_services)
     id(Libs.plugin.crashlytics)
+    id(Libs.plugin.firebase_performance)
 }
 
 common()

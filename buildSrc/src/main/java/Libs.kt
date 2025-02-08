@@ -39,6 +39,9 @@ object Libs {
     private const val messagingVersion = "21.0.1"
     private const val configVersion = "20.0.4"
 
+    private const val firebasePerformanceVersion = "21.0.4"
+    private const val firebasePerformancePluginVersion = "1.4.2"
+
     private const val glideVersion = "4.12.0"
     private const val datastoreVersion = "1.0.0"
     private const val securityVersion = "1.1.0-alpha03"
@@ -96,9 +99,11 @@ object Libs {
         const val gradle_versions_plugin = "com.github.ben-manes.versions"
         const val detekt = "io.gitlab.arturbosch.detekt"
         const val crashlytics = "com.google.firebase.crashlytics"
+        const val firebase_performance = "com.google.firebase.firebase-perf"
     }
 
     object classpath {
+        const val firebase_performance = "com.google.firebase:perf-plugin:$firebasePerformancePluginVersion"
         const val google_services = "com.google.gms:google-services:$gmsVersion"
         const val android_gradle = "com.android.tools.build:gradle:$gradleVersion"
         const val kotlin_gradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
