@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "962613071294",
+    "project_id": "stylo-app-6afd0",
+    "storage_bucket": "stylo-app-6afd0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962613071294:android:4f60995576efb5edcefdef",
+        "android_client_info": {
+          "package_name": "com.solopov.stylo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUpwjByn6erAbmahXIAxpcGzBIkEhmEKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

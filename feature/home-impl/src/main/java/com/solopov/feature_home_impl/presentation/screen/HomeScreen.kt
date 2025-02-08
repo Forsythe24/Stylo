@@ -43,6 +43,10 @@ import com.solopov.feature_home_impl.presentation.model.HomeIntent
 import com.solopov.feature_home_impl.presentation.model.HomeViewState
 import com.solopov.feature_home_impl.presentation.viewmodel.HomeViewModel
 import com.solopov.feauture_home_impl.R
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.withContext
 import com.solopov.coreuicompose.R as coreUiComposeR
 
 

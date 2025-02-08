@@ -28,12 +28,13 @@
             <option value="$PROJECT_DIR$/core/ui" />
             <option value="$PROJECT_DIR$/core/ui/compose" />
             <option value="$PROJECT_DIR$/core/ui/theme" />
-            <option value="$PROJECT_DIR$/feature" />
             <option value="$PROJECT_DIR$/feature/auth-api" />
             <option value="$PROJECT_DIR$/feature/auth-impl" />
             <option value="$PROJECT_DIR$/feature/bottom-bar" />
             <option value="$PROJECT_DIR$/feature/cart-api" />
             <option value="$PROJECT_DIR$/feature/cart-impl" />
+            <option value="$PROJECT_DIR$/feature/favorites-api" />
+            <option value="$PROJECT_DIR$/feature/favorites-impl" />
             <option value="$PROJECT_DIR$/feature/home-api" />
             <option value="$PROJECT_DIR$/feature/home-impl" />
             <option value="$PROJECT_DIR$/feature/search-api" />

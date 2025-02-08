@@ -3,7 +3,7 @@ object Libs {
     private const val gradleVersion = "7.0.4"
     private const val kotlinVersion = "1.9.25"
 
-    private const val gmsVersion = "4.4.1"
+    const val gmsVersion = "4.4.1"
     private const val desugarVersion = "2.0.4"
     private const val kotlinSerializationVersion = "1.6.3"
     private const val coroutinesVersion = "1.8.0"
@@ -34,7 +34,7 @@ object Libs {
     private const val hiltJetpackVersion = "1.0.0"
 
     private const val crashlyticsGradleVersion = "2.5.2"
-    private const val crashlyticsVersion = "17.4.0"
+    private const val crashlyticsVersion = "18.6.2"
     private const val analyticsVersion = "18.0.2"
     private const val messagingVersion = "21.0.1"
     private const val configVersion = "20.0.4"
@@ -95,6 +95,7 @@ object Libs {
         const val triplet_play = "com.github.triplet.play"
         const val gradle_versions_plugin = "com.github.ben-manes.versions"
         const val detekt = "io.gitlab.arturbosch.detekt"
+        const val crashlytics = "com.google.firebase.crashlytics"
     }
 
     object classpath {
@@ -104,6 +105,7 @@ object Libs {
         const val kotlin_serialization = "org.jetbrains.kotlin:kotlin-serialization:$kotlinVersion"
         const val crashlytics_gradle =
             "com.google.firebase:firebase-crashlytics-gradle:$crashlyticsGradleVersion"
+
         const val hilt_gradle = "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
         const val navigation_safeArgs_gradle =
             "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
@@ -132,11 +134,11 @@ object Libs {
         const val hiltKapt = "com.google.dagger:hilt-android-compiler:$hiltVersion"
         const val hiltKaptViewModel = "androidx.hilt:hilt-compiler:$hiltJetpackVersion"
 
-        val firebase = arrayOf<String>(/*
+        val firebase = arrayOf(
             "com.google.firebase:firebase-crashlytics-ktx:$crashlyticsVersion",
             "com.google.firebase:firebase-analytics-ktx:$analyticsVersion",
             "com.google.firebase:firebase-messaging-ktx:$messagingVersion",
-            "com.google.firebase:firebase-config-ktx:$configVersion"*/
+            "com.google.firebase:firebase-config-ktx:$configVersion"
         )
 
         val composeCompiler = arrayOf("androidx.compose.compiler:compiler:$composeCompilerVersion")
